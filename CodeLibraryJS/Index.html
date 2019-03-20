@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/app/codeLibraryJS.js"></script>
+    <meta charset="utf-8" />
+    <title>CodeLibrary</title>
+</head>
+<body>
+
+    <!--<form id="testSubmit" action="http://localhost/CodeLibrary/CodeLibraryMVC/home/PostEmailPreferences">-->
+    <form id="testSubmit">
+        <div id="subscriptionPreferencesSection" class="row">
+
+            <div class="col-md-12">
+                <br />
+                <p>Please tell us your email preferences</p>
+                <button onclick="javascript: handleSubmit();">Submit</button>
+
+                <!--<input type="submit" value="click" />-->
+
+                <div id="subscriptionPreferencesFields">
+                    <p class="form-field  email pd-text required" style="display: block;">
+                        <label class="field-label" for="X6522_388844pi_6522_388844">Email</label>
+                        <input type="text" name="X6522_388844pi_6522_388844" id="X6522_388844pi_6522_388844" class="text" size="30" maxlength="255">
+                    </p>
+                    <p class="form-field  New_Subscribe__FTSE_Emerging_Markets pd-radio">
+                        <label class="field-label" for="X6522_388846pi_6522_388846">China</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388846pi_6522_388846" id="X6522_388846pi_6522_388846_4286366_4286366" value="4286366" />
+                            <label class="inline" for="X6522_388846pi_6522_388846_4286366_4286366">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388846pi_6522_388846" id="X6522_388846pi_6522_388846_4286368_4286368" value="4286368" />
+                            <label class="inline" for="X6522_388846pi_6522_388846_4286368_4286368">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  New_Subscribe__FR_ESG pd-radio">
+                        <label class="field-label" for="X6522_388848pi_6522_388848">Environmental, Social &amp; Governance</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388848pi_6522_388848" id="X6522_388848pi_6522_388848_4286370_4286370" value="4286370" />
+                            <label class="inline" for="X6522_388848pi_6522_388848_4286370_4286370">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388848pi_6522_388848" id="X6522_388848pi_6522_388848_4286372_4286372" value="4286372" />
+                            <label class="inline" for="X6522_388848pi_6522_388848_4286372_4286372">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  New_Subscribe__FR_Equity pd-radio">
+                        <label class="field-label" for="X6522_388850pi_6522_388850">Equity</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388850pi_6522_388850" id="X6522_388850pi_6522_388850_4286374_4286374" value="4286374" />
+                            <label class="inline" for="X6522_388850pi_6522_388850_4286374_4286374">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388850pi_6522_388850" id="X6522_388850pi_6522_388850_4286376_4286376" value="4286376" />
+                            <label class="inline" for="X6522_388850pi_6522_388850_4286376_4286376">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  New_Subscribe__FR_Fixed_Income pd-radio">
+                        <label class="field-label" for="X6522_388852pi_6522_388852">Fixed Income</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388852pi_6522_388852" id="X6522_388852pi_6522_388852_4286378_4286378" value="4286378" />
+                            <label class="inline" for="X6522_388852pi_6522_388852_4286378_4286378">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388852pi_6522_388852" id="X6522_388852pi_6522_388852_4286380_4286380" value="4286380" />
+                            <label class="inline" for="X6522_388852pi_6522_388852_4286380_4286380">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  NEW_Subscribe__FR_Real_Estate pd-radio">
+                        <label class="field-label" for="X6522_388854pi_6522_388854">Real Estate</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388854pi_6522_388854" id="X6522_388854pi_6522_388854_4286382_4286382" value="4286382" />
+                            <label class="inline" for="X6522_388854pi_6522_388854_4286382_4286382">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388854pi_6522_388854" id="X6522_388854pi_6522_388854_4286384_4286384" value="4286384" />
+                            <label class="inline" for="X6522_388854pi_6522_388854_4286384_4286384">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  New_Subscribe__FR_Smart_Beta__Factor pd-radio">
+                        <label class="field-label" for="X6522_388856pi_6522_388856">Smart Beta &amp; Factor</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388856pi_6522_388856" id="X6522_388856pi_6522_388856_4286386_4286386" value="4286386" />
+                            <label class="inline" for="X6522_388856pi_6522_388856_4286386_4286386">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388856pi_6522_388856" id="X6522_388856pi_6522_388856_4286388_4286388" value="4286388" />
+                            <label class="inline" for="X6522_388856pi_6522_388856_4286388_4286388">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  Subscribe__FR_ETP pd-radio required">
+                        <label class="field-label" for="X6522_388858pi_6522_388858">ETP</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_388858pi_6522_388858" id="X6522_388858pi_6522_388858_4286392_4286392" value="4286392" />
+                            <label class="inline" for="X6522_388858pi_6522_388858_4286392_4286392">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_388858pi_6522_388858" id="X6522_388858pi_6522_388858_4286390_4286390" value="4286390" />
+                            <label class="inline" for="X6522_388858pi_6522_388858_4286390_4286390">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  Subscribe_FR_Small_Cap_Perspectives pd-radio     ">
+                        <label class="field-label" for="X6522_392646pi_6522_392646">Small Cap Perspectives</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_392646pi_6522_392646" id="X6522_392646pi_6522_392646_4320068_4320068" value="4320068" />
+                            <label class="inline" for="X6522_392646pi_6522_392646_4320068_4320068">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_392646pi_6522_392646" id="X6522_392646pi_6522_392646_4320070_4320070" value="4320070" />
+                            <label class="inline" for="X6522_392646pi_6522_392646_4320070_4320070">No</label>
+                        </div>
+                    </p>
+                    <p class="form-field  Subscribe_FTSE_BOCHK_RMB_Bond_Qtly_Report pd-radio     ">
+                        <label class="field-label" for="X6522_392648pi_6522_392648">China Fixed Income</label>
+                        <div class="value">
+                            <input type="radio" name="X6522_392648pi_6522_392648" id="X6522_392648pi_6522_392648_4320072_4320072" value="4320072" />
+                            <label class="inline" for="X6522_392648pi_6522_392648_4320072_4320072">Yes</label>
+                            &nbsp;&nbsp;
+                            <input type="radio" name="X6522_392648pi_6522_392648" id="X6522_392648pi_6522_392648_4320074_4320074" value="4320074" />
+                            <label class="inline" for="X6522_392648pi_6522_392648_4320074_4320074">No</label>
+                        </div>
+                    </p>
+                    <!-- forces IE5-8 to correctly submit UTF8 content  -->
+                    <input name="_utf8" type="hidden" value="☃">
+                    <input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="">
+
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿@model TechNotice
+
+<h2>Index</h2>
+
+<style>
+    #displayPdf {
+        /*float: left;*/
+    }
+</style>
+
+
+<div id="displayPdf">
+    <div>@Model.Id</div>
+    <div>@Model.Title</div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryWebAPI/API/Values/912222?tnAttachmentType={Enums.TnAttachmentType.Content}")">Download 'Content' from Web API</a></div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryWebAPI/API/Values/912222?tnAttachmentType={Enums.TnAttachmentType.ContentItem}")">Download 'ContentItem' from Web API</a></div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryWebAPI/API/Values/912222?tnAttachmentType={Enums.TnAttachmentType.CsvContent}")">Download 'CsvContent' from Web API</a></div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryWebAPI/API/Values/912222?tnAttachmentType={Enums.TnAttachmentType.RedactedContent}")">Download 'RedactedContent' () from Web API</a></div>
+    <br />
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryMVC/Home/GetPdfFile/912222?tnAttachmentType={Enums.TnAttachmentType.Content}")" )">Download 'Content' from MVC</a></div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryMVC/Home/GetPdfFile/912222?tnAttachmentType={Enums.TnAttachmentType.ContentItem}")" )">Download 'ContentItem' from MVC</a></div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryMVC/Home/GetPdfFile/912222?tnAttachmentType={Enums.TnAttachmentType.CsvContent}")" )">Download 'CSV Content' from MVC</a></div>
+    <div><a href="@($"{CodeLibraryHelpers.Enums.UrlScheme.http.ToString()}://{ConfigHelper.GetConfigValue("Environment")}/CodeLibrary/CodeLibraryMVC/Home/GetPdfFile/912222?tnAttachmentType={Enums.TnAttachmentType.RedactedContent}")" )">Download 'Redacted Content' from MVC</a></div>
+</div>

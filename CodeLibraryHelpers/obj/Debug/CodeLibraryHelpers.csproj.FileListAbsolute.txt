@@ -1,0 +1,8 @@
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\bin\Debug\CodeLibraryHelpers.dll
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\bin\Debug\CodeLibraryHelpers.pdb
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\bin\Debug\EntitlementDAL_V3.dll
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\bin\Debug\Entitlement.Contracts.dll
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\obj\Debug\CodeLibraryHelpers.dll
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\obj\Debug\CodeLibraryHelpers.pdb
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\obj\Debug\CodeLibraryHelpers.csprojResolveAssemblyReference.cache
+C:\TFSFiles\CodeLibrary\CodeLibraryHelpers\obj\Debug\CodeLibraryHelpers.csproj.CoreCompileInputs.cache
