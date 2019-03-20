@@ -1,0 +1,23 @@
+<TestXmlDocument>
+
+  <NodeContainingBooleanValue>true</NodeContainingBooleanValue>
+  <NodeContainingBooleanValue>false</NodeContainingBooleanValue>
+  <NodeContainingBooleanValue>true</NodeContainingBooleanValue>
+  <NodeContainingBooleanValue>true</NodeContainingBooleanValue>
+
+  <NodeContainingIntegerValue>10</NodeContainingIntegerValue>
+  <NodeContainingIntegerValue>20</NodeContainingIntegerValue>
+  <NodeContainingIntegerValue>30</NodeContainingIntegerValue>
+  <NodeContainingIntegerValue>40</NodeContainingIntegerValue>
+
+  <NodeContainingStringValue>a</NodeContainingStringValue>
+  <NodeContainingStringValue>b</NodeContainingStringValue>
+  <NodeContainingStringValue>c</NodeContainingStringValue>
+  <NodeContainingStringValue>d</NodeContainingStringValue>
+
+  <ReplaceMarker>
+    <Text>Please contact @@Client Services@@</Text>
+    <Link>http://www.ftserussel.com/contact-us</Link>
+  </ReplaceMarker>
+  
+</TestXmlDocument>

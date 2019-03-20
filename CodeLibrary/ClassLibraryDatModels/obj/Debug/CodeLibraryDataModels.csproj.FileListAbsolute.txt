@@ -1,0 +1,6 @@
+C:\TFSFiles\CodeLibrary\CodeLibrary\ClassLibraryDatModels\bin\Debug\ClassLibraryDatModels.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\ClassLibraryDatModels\bin\Debug\ClassLibraryDatModels.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\ClassLibraryDatModels\obj\Debug\ClassLibraryDatModels.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\ClassLibraryDatModels\obj\Debug\ClassLibraryDatModels.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\ClassLibraryDatModels\obj\Debug\CodeLibraryDataModels.csprojResolveAssemblyReference.cache
+C:\TFSFiles\CodeLibrary\CodeLibrary\ClassLibraryDatModels\obj\Debug\CodeLibraryDataModels.csproj.CoreCompileInputs.cache

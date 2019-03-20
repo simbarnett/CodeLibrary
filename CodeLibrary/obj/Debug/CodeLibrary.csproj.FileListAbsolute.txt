@@ -1,0 +1,16 @@
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\CodeLibrary.exe.config
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\CodeLibrary.exe
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\CodeLibrary.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\CodeLibraryHelpers.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\Entitlement.Contracts_V2.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\EntitlementDAL_V3.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\EntityFramework.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\Entitlement.Contracts.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\CodeLibraryHelpers.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\EntityFramework.xml
+C:\TFSFiles\CodeLibrary\CodeLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\TFSFiles\CodeLibrary\CodeLibrary\obj\Debug\CodeLibrary.csprojResolveAssemblyReference.cache
+C:\TFSFiles\CodeLibrary\CodeLibrary\obj\Debug\CodeLibrary.exe
+C:\TFSFiles\CodeLibrary\CodeLibrary\obj\Debug\CodeLibrary.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\obj\Debug\CodeLibrary.csproj.CoreCompileInputs.cache

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4430BA0A-3FC5-41F3-9AC1-7CBA74C1FB10}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeLibrary</RootNamespace>
+    <AssemblyName>CodeLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Entitlement.Contracts_V2">
+      <HintPath>dlls\Entitlement.Contracts_V2.dll</HintPath>
+    </Reference>
+    <Reference Include="EntitlementDAL_V3">
+      <HintPath>dlls\EntitlementDAL_V3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ServerSide\Business\UseHtmlTemplateHelper.cs" />
+    <Compile Include="ServerSide\Business\IO.cs" />
+    <Compile Include="ServerSide\Business\RichText.cs" />
+    <Compile Include="ServerSide\Business\UseEntitlementDAL.cs" />
+    <Compile Include="ServerSide\Enums\Enums.cs" />
+    <Compile Include="ServerSide\ExtensionMethods\StringExtensions.cs" />
+    <Compile Include="ServerSide\Helpers\CacheHelper.cs" />
+    <Compile Include="ServerSide\Helpers\ConfigHelper.cs" />
+    <Compile Include="ServerSide\Helpers\EntitlementDALHelper.cs" />
+    <Compile Include="ServerSide\Helpers\HtmlTemplateHelper.cs" />
+    <Compile Include="ServerSide\Helpers\IOHelper.cs" />
+    <Compile Include="ServerSide\Helpers\LoggingHelper.cs" />
+    <Compile Include="ServerSide\Helpers\ReflectionHelper.cs" />
+    <Compile Include="ServerSide\Helpers\RichTextHelper.cs" />
+    <Compile Include="ServerSide\Helpers\StringManipulationHelper.cs" />
+    <Compile Include="ServerSide\Helpers\XmlHelper.cs" />
+    <Compile Include="ServerSide\Scratch.cs" />
+    <Compile Include="ServerSide\Scratch\AsyncScratch.cs" />
+    <Compile Include="ServerSide\Scratch\Blah.cs" />
+    <Compile Include="ServerSide\Scratch\CallSqlFunction.cs" />
+    <Compile Include="ServerSide\Scratch\DateScratch.cs" />
+    <Compile Include="ServerSide\Scratch\LazyScratch.cs" />
+    <Compile Include="ServerSide\Scratch\LinqScratch.cs" />
+    <Compile Include="ServerSide\Business\Cache.cs" />
+    <Compile Include="ServerSide\Business\Config.cs" />
+    <Compile Include="ServerSide\Business\ConsumeXml.cs" />
+    <Compile Include="ServerSide\Business\Linq.cs" />
+    <Compile Include="ServerSide\Business\Logging.cs" />
+    <Compile Include="ServerSide\Business\StringManipulation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerSide\Scratch\TypeConversionScratch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Resources\RichText\RichText.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientSide\Javascript\Helpers.js" />
+    <Content Include="Resources\Templates\TemplateHtmlTable.html" />
+    <Content Include="Resources\Xml\CodeLibrary.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dlls\" />
+    <Folder Include="Resources\Documents\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_38_10\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_38_10\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_38_24\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_38_24\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_38_48\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_38_48\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_52_20\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_52_20\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_52_31\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_52_31\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_53_12\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_53_12\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_53_23\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_53_23\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_55_32\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_55_32\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_56_25\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_56_25\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_57_32\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 14_57_32\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_00_39\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_00_39\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_53_05\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_53_05\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_55_45\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_55_45\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_56_33\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_56_33\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_01\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_01\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_11\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_11\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_19\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_19\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_56\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 15_57_56\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 16_00_14\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 16_00_14\Out\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 16_00_49\In\DT-FTSE12110\" />
+    <Folder Include="TestResults\Deploy_simonb 2017-11-02 16_00_49\Out\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeLibraryHelpers\CodeLibraryHelpers.csproj">
+      <Project>{91cc8a0d-9147-43e5-9b3d-041d5204d83c}</Project>
+      <Name>CodeLibraryHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

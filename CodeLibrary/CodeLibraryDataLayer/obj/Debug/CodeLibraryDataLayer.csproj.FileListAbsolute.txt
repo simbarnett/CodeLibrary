@@ -1,0 +1,8 @@
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\bin\Debug\CodeLibraryDataLayer.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\bin\Debug\CodeLibraryDataLayer.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\bin\Debug\ClassLibraryDatModels.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\bin\Debug\ClassLibraryDatModels.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\obj\Debug\CodeLibraryDataLayer.csprojResolveAssemblyReference.cache
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\obj\Debug\CodeLibraryDataLayer.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\obj\Debug\CodeLibraryDataLayer.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\CodeLibraryDataLayer\obj\Debug\CodeLibraryDataLayer.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\CodeLibrary.exe.config
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\CodeLibrary.exe
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\CodeLibrary.pdb
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\Entitlement.Contracts_V2.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\EntitlementDAL_V3.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\EntityFramework.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\Microsoft.CodeAnalysis.LiveUnitTesting.Runtime.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\Entitlement.Contracts.dll
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\EntityFramework.xml
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\b\CodeLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\i\CodeLibrary\Debug\CodeLibrary.csprojResolveAssemblyReference.cache
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\i\CodeLibrary\Debug\CodeLibrary.csproj.CoreCompileInputs.cache
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\i\CodeLibrary\Debug\CodeLibrary.exe
+C:\TFSFiles\CodeLibrary\CodeLibrary\.vs\CodeLibrary\lut\0\i\CodeLibrary\Debug\CodeLibrary.pdb
